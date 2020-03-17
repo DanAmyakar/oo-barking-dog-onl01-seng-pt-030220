@@ -3,6 +3,9 @@ class Dog
   def name=(dogs_name)
     @this_dogs_name = dogs_name
   end
+  def name
+    
+  end
   def sit
     puts "#{this_dogs_name} is sitting."
   end
