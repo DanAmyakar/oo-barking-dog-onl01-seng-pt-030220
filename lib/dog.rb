@@ -4,7 +4,7 @@ class Dog
     @this_dogs_name = dogs_name
   end
   def name
-    
+    @this_dogs_name
   end
   def sit
     puts "#{this_dogs_name} is sitting."
